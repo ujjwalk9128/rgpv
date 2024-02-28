@@ -1,0 +1,46 @@
+#nav ul{
+    display: flex;
+    justify-content: flex-end;
+    gap:3px;
+
+       list-style-type:none;
+}
+
+#gp{
+    display:flex;
+    justify-content:center;
+    margin-top: 140;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color: rgb(22, 237, 244);
+}
+
+#s{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+ }
+
+ #s input
+ {
+    width:450px;
+ }
+
+ span{
+    position: absolute;
+    left: 56%;
+    top: 79%;
+    color: blueviolet;
+    font-size: 20px;
+ }
+
+ #chk
+ {
+   background-color: rgb(31, 31, 170);
+   font-size: 15px;
+   font-style:italic;
+
+ }
+
+

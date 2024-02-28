@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="1st.css">
+</head>
+<body> 
+
+     <div class="flex-container">
+         <div class="login-title">
+             <h2> ClOuHt Login Page</h2>
+         </div>
+
+         <div class="login-form">
+             <form name="login">
+                username<input type="text" style="width: 250px; height: 25px;" name="userid" />
+                password<input type="password" style="width: 250px; height: 25px;" name="pswrd" />
+                <input type="button" style="width: 70px; height: 30px;" onclick="check()" value="login" />
+                <input type="reset" style="width: 70px; height: 30px;" value="clean" />
+             </form>
+         </div>
+     </div>
+
+     <div class="footer">
+        <div class="footerA">
+             <h3>Contact Number: 9758468892 , 8563245124</h3>
+             <h3>Email: ClOuHt2002@gmail.com</h3>
+             <h3>Visit<a href="#">ClOuHt.com</a></h3>
+        </div>
+        <div class="footerB">
+            <h2>Conditions of Use & Sale<br>
+                Privacy Notice<br>
+                Interest-Based Ads<br>
+                © 2002-2024, ClOuHt.com <br>
+            </h2>
+            <h2>
+                COPYRIGHT RESERVED <br>
+                  UJJWAL KUMAR
+            </h2>
+        </div>
+
+     <script language="javascript">
+          function check(form)
+          { 
+             if(document.forms[0].elements.userid.value === "ujjwal" && document.forms[0].elements.pswrd.value === "ujjwal@123")
+             {
+                window.open("ecart/ecart.html")
+             }
+             else
+             {
+                alert("Error username and password")
+             }
+          }
+     </script>
+
+</body>
+</html>

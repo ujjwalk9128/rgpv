@@ -1,0 +1,147 @@
+
+<!-- saved from url=(0037)http://127.0.0.1:5500/table_data.html -->
+<!DOCTYPE>
+<html>
+    <head ><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Table data</title>
+
+        <style>
+            table{
+                border-collapse: collapse;
+                width: 50%;
+            }
+            th,td{
+                border:2px solid green;
+                padding: 15px;
+            }
+            img{
+                width: 40%;
+
+                
+            }
+        </style>
+        <link rel="stylesheet" href="ujju.css">
+    </head>
+    <body>
+        
+        
+
+        <h1> HELLO WELLCOME TO YOUR ' APNA  KNOWLEGE GHAR'</h1>
+        <table>
+            <tbody><tr>
+                <th>name</th>
+                <th>class</th>
+                <th>age</th>
+            </tr>
+            <tr>
+                <td>varnika</td>
+                <td>9th</td>
+                <td>16</td>
+            </tr>
+
+            <tr>
+                <td style="color:red;"><b>ASHWARIYA</b></td>
+                <td>10th</td>
+                <td>28</td>
+            </tr>
+
+            <tr>
+                <td>rakesh</td>
+                <td>8th</td>
+                <td>14</td>
+            </tr>
+        </tbody></table>
+        <br>
+
+        <h1>Natural vibes</h1>
+        <img src="./Table data_files/natural_img.jpg" alt="NATURAL VIBES">
+
+
+        <div>
+
+            <h1 style="color:blue">
+            
+                ऐश्वर्या अब भुधी हो चुकी है....उसे अब आराम की जरात है नहीं कि अब बॉयफ्रेंड बनाने की </h1>
+        </div>
+
+        <div>
+
+      <h2>   DATA IN ORDER LIST</h2>
+        
+         <ol>
+            <li>UJJWAL</li>
+            <li>SUNNY</li>
+            <li>RAJA</li>
+            <li>ASHWARIYA RAJ</li>
+         </ol>
+        </div>
+         <br>
+         <br>
+
+       <div> 
+      <h3>  DATA IN UN-ORDER LIST</h3>
+          
+          <ul>
+             <li>C PROGRAMMING</li>
+             <li> ENGLISH</li>
+             <li>FUNDAMENTAL</li>
+             <li>JAVA PROGRAMMING</li>
+          </ul>
+
+        </div> 
+          <br>
+          <br>
+
+          <div>
+        <h4>  DATA IN DESCRIPTION LIST</h4> 
+            <dl>
+                 <dt>PURNEA</dt>
+                  <dd> purnea is a district in bihar</dd>
+
+                  <dt>BIHAR</dt>
+                   <dd> Bhar is a state in India</dd>
+
+                   <dt>INDIA</dt>
+                    <dd> India is lagrest populated country in the world in 2023</dd>
+            </dl> 
+        </div>
+    <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

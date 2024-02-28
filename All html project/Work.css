@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+#strt
+{
+    
+    text-align: center;
+   background-color: blueviolet;
+
+}
+
+.banner>img
+{
+    width: 100%;
+}
+
+.banner
+{
+    position: relative;
+}
+
+#nav
+{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+
+    font-size: 20px;
+
+}
+
+#prt
+{
+    color: aliceblue;
+    
+}
+
+#strt.h1
+{
+    color:darkorange;
+}
+

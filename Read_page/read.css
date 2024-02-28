@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header
+{
+    background-color: yellow;
+    padding: 30px;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+
+}
+.banner
+{
+    background-color:darkcyan ;
+    
+    justify-content: center;
+    padding: 65px;
+     text-align: center;
+     font-size: 30px;
+}
+
+.navbar
+{
+    background-color: rgb(19, 171, 90);
+    display:flex;
+}
+.navbar>div
+{
+    flex-direction: row;
+    margin: 30px;
+    padding: 5px;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+}
+.row
+{
+    display: flex;   
+}
+.side
+{
+   flex: 30%;
+    background-color:cyan;
+    padding:20px;
+    
+}
+.fakeimg
+{
+    background-color: chocolate;
+    padding:20px;
+    margin: 15px;
+}
+.main
+{
+    flex:40%;
+    background-color: blueviolet;
+    padding: 20px;
+}
+.side2
+{
+      flex: 30%;
+      padding: 20px;
+      background-color: gold;
+}
+.footer
+{
+    background-color: darkgoldenrod;
+    text-align: center;
+    padding: 30px;
+
+}

@@ -1,0 +1,68 @@
+#chk {
+    background-color: rgb(26, 26, 169);
+    font-style: normal;
+    height: 50px;
+    text-align: center;
+  
+  
+  }
+  
+  #pup {
+    background-color: rgb(236, 241, 241);
+    height: 115px;
+    padding-left: 80px;
+    position: relative;
+  
+  }
+  
+  #pup.src {
+    height: 20;
+    width: 20;
+  }
+  
+  #login {
+  
+  margin-left: 60%;
+  margin-top: -75px;
+  margin-right: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  
+  }
+  
+  .text
+  {
+    margin-right: 450px;
+    margin-left: 130px;
+  }
+  
+  
+  .banner
+  {
+    position: relative;
+   
+    
+  
+  }
+  .banner>img{
+    width: 100%;
+  }
+  .text-on-img
+  {
+    position:absolute;
+    bottom: 130px;
+    left: 220px;
+    color:red;
+    
+  }
+  
+  .instruction
+  {
+    background-color: rgb(236, 241, 241);
+    height: 255px;
+    padding-left: 80px;
+    position: relative;
+    
+  }

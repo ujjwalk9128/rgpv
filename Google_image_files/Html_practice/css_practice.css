@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.simple
+{
+    height:50px;
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.purnea_univ_logo
+{
+    height:90px;
+    width: 100%;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chk_border
+{
+    
+    width: auto;
+    display: flex;
+    background-color: darkcyan;
+    border:10px solid;
+    border-color: red;
+    outline-style: dotted;
+    outline-color: greenyellow;
+    text-indent: 50px;
+    text-shadow: 2px 2px yellow;
+
+    
+}
+
+.login_page
+{
+    width:40%;
+    
+    background-color: green;
+    margin-left: 150px;
+    
+
+}
+.login_page_child1
+{
+    
+    display: flex;
+    flex-direction: row;
+    background-color: blueviolet;
+    border: 5px solid;
+    border-color: brown;
+    justify-content: center;
+    align-items: center; 
+}
+.login_page_child2
+{
+   
+   background-image: url("login_image_background.jpg");
+    flex-direction: column;
+    
+    border: 2px;
+    border-color: darkgoldenrod;
+    padding: 40px 30px 20px 150px ;
+}
+.signup_parent
+{
+    display:flex;
+    flex-direction:row;
+    background-color: chocolate ;
+    justify-content: right;
+    background-image: url("login_image_background.jpg");
+}
+.login_button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:chocolate;
+    background-image: url("login_image_background.jpg");
+}
+
+.grid-container {
+    display: grid;
+    column-gap:15px;
+    row-gap: 10px;
+    grid-template-columns: auto auto auto;
+    background-color:blueviolet;
+    padding: 10px;
+    
+  }
+  .grid-item {
+    background-color:white;
+    border: 1px solid black;
+    align-items: center;
+    font-size: 30px;
+    text-align: center;
+
+  }
+  .responsive
+  {
+    width: 100%;
+    height: auto;
+  }
+
+  .grid-container1 {
+    display: grid;
+    column-gap:15px;
+    row-gap: 10px;
+    grid-template-columns: auto auto auto auto auto auto;
+    background-color:darkorange;
+    padding: 10px;
+    
+    
+  }
+
+  .grid-container1 > div{
+    background-color:white;
+    border: 1px solid black;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 0;
+
+  }
+
+  .item1
+  {
+    grid-area: 1/2/3/6;
+  }
+.flex-container
+{
+  display: flex;
+  background-color: blueviolet;
+  flex-direction: row;
+  flex-flow:row wrap;
+  
+  align-items: baseline;
+  
+  
+}
+.flex-container>div
+{
+    background-color: chocolate;
+    
+    font-size: 30px;
+    margin: 20px;
+    width: 100px;
+    text-align: center;    
+    padding:10px;
+}
+.flex-container1
+{
+  background-color:gold;
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
+.flex-container1>div
+{
+  background-color: blueviolet;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+}
+.flex-container2
+{
+  background-color: cornflowerblue;
+  display: flex;
+
+}
+.flex-container2>div
+{
+   background-color: darkorchid;
+   margin: 20px;
+   width: 100px;
+   line-height: 70px;
+   font-size: 30px;
+   text-align: center;
+}
+.flex-container3
+{
+  background-color: brown;
+  display: flex;
+  height: 200px;
+
+}
+.flex-container3>div
+{
+      background-color: chartreuse;
+      width: 100px;
+      margin: 20px;
+      line-height: 75px;
+      text-align: center;
+      font-size: 30px;
+     
+}
+
+  
+  
+
+
+
+

@@ -1,0 +1,49 @@
+#hd
+{
+    display: flex;
+    border:   dashed 5px red;
+    justify-content: center;
+    color: yellow;
+
+    margin-left:300px;
+    margin-right:198px;
+    margin-top: 20px;
+    border-radius:3px ;
+
+}
+
+#hd2
+{
+    border-top-style: dashed;
+    border-right-style: groove;
+    border-bottom-style: double;
+    border-left-style: solid;
+   margin: 200px;
+
+    
+}
+
+#ex1
+{
+    width:300px;
+    padding: 25px;
+    box-sizing: border-box;
+    background-color: blueviolet;
+    color: chartreuse;
+    height: 200px;
+}
+
+#ex2
+{
+    width: 350px;
+    height: 200px;
+    background-color:cornflowerblue;
+    margin: 5px 10px;
+    padding: 40px;
+    
+    outline-style: dotted;
+    outline-color: darkred;
+    outline-width:2px;
+    outline-color: darkred;
+    outline-offset: 35px;
+}
